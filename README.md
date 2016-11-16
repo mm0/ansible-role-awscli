@@ -1,6 +1,6 @@
 # README.md
 
-# Ansible Role: Bash v1.0
+# Ansible Role: AWS CLI
 
 An Ansible role that installs latest awscli on Mac and Ubuntu and configures boto credentials file
 
