@@ -6,12 +6,17 @@ An Ansible role that installs the latest AWS Cli for both Mac and Ubuntu
 
 "
   company: 
-  license: MIT
+  license: BSD2
   min_ansible_version: 2.0
   platforms:
-  - name: All
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
     versions:
     - all
   galaxy_tags:
+    - system
+    - cloud
 dependencies:
 
