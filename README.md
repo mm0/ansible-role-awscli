@@ -10,7 +10,7 @@ An Ansible role that installs latest awscli on Mac and Ubuntu and configures bot
 Requirements
 ---------------
 
-Sudo access
+- Sudo access
 
 
 Role Variables
