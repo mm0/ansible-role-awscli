@@ -18,16 +18,18 @@ Role Variables
 
 Available variables are listed below, there are no defaults:
 
-      aws_access_key_id: 
-      aws_secret_access_key:
-      region:
-      dest: /path/to/credentials
-      owner: 
-      group: 
-      mode: 
-    credential_setup: false
+```yml
+  aws_access_key_id: 
+  aws_secret_access_key:
+  region:
+  dest: /path/to/credentials
+  owner: 
+  group: 
+  mode: 
+  credential_setup: false
+```
 
-Fill in the aws fields and credentials file location (usually ~/.aws/credentials) and set credential_setup to true if you'd like to add a key
+Fills in AWS credentials file (usually located at ~/.aws/credentials) when credential_setup is set to true.
 
 Dependencies
 ---------------
