@@ -2,7 +2,7 @@
   roles:
   - ansible-role-awscli
   - { role: ansible-role-awscli,
-      aws_access_key_id: "id"
+      aws_access_key_id: "id",
       aws_secret_access_key: "key",
       region: "us-west-1",
       dest: "/home/travis/.boto",
