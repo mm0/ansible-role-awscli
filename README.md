@@ -1,17 +1,20 @@
-# README.md
+Ansible Role: AWS CLI
+=====================
 
-# Ansible Role: AWS CLI
+[![Build Status](https://travis-ci.org/mm0/ansible-role-awscli.svg?branch=master)](https://travis-ci.org/mm0/ansible-role-awscli)]
+
 
 An Ansible role that installs latest awscli on Mac and Ubuntu and configures boto credentials file
 
 
-![travis-ci](https://travis-ci.org/mm0/ansible-role-awscli.svg?branch=master)
-
-## Requirements
+Requirements
+---------------
 
 Sudo access
 
-## Role Variables
+
+Role Variables
+---------------
 
 Available variables are listed below, there are no defaults:
 
@@ -26,11 +29,13 @@ Available variables are listed below, there are no defaults:
 
 Fill in the aws fields and credentials file location (usually ~/.aws/credentials) and set credential_setup to true if you'd like to add a key
 
-## Dependencies
+Dependencies
+---------------
 
 None 
 
-## Example Playbook
+Example Playbook
+---------------
 
     - hosts: webservers
       vars:
@@ -51,7 +56,8 @@ None
 					credential_setup: true
 				}
 
-## License
+License
+---------------
 
 MIT
 
@@ -60,4 +66,4 @@ Author Information
 
 [Matt Margolin](mailto:matt.margolin@gmail.com)
 
-mm0 on github
+[mm0](https://github.com/mm0) on github
